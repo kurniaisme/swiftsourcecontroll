@@ -7,6 +7,7 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var title: String = ""
     var body: some View {
         ZStack {
             Color.blue.opacity(0.4)
