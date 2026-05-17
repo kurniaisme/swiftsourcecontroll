@@ -18,6 +18,8 @@ struct ContentView: View {
             Button("Click Me!") {
                 
             }
+            RoundedRectangle(cornerRadius: 20)
+                .foregroundStyle(.blue.opacity(0.4))
         }
         .padding()
     }
