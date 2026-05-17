@@ -15,6 +15,9 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Kurnia Ismi Sholihati")
                 .fontWeight(.bold)
+            Button("Click Me!") {
+                
+            }
         }
         .padding()
     }
