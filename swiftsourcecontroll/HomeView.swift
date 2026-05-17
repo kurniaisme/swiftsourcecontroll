@@ -8,9 +8,11 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Home")
-            .font(.largeTitle)
-            .padding()
+        ZStack {
+            Color.blue.opacity(0.4)
+                .ignoresSafeArea()
+            Text("This is Home View")
+        }
     }
 }
 
